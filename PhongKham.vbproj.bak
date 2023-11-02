@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65C53B0A-CEB4-4BE7-85E9-92B898100EF5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PhongKham.My.MyApplication</StartupObject>
+    <RootNamespace>PhongKham</RootNamespace>
+    <AssemblyName>PhongKham</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionExplicit>Off</OptionExplicit>
+    <ApplicationIcon>Main.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PhongKham.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PhongKham.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Chart, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\BenhVienNamDinh\Quan ly benh vien\ActiveReports.Chart.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.Design3, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Tools\Laptrinh\Active_158\ActiveReports.Design3.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.Interop, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Tools\Laptrinh\Active_158\ActiveReports.Interop.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.Viewer3, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\BenhVienNamDinh\Quan ly benh vien\ActiveReports.Viewer3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.XlsExport, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Tools\Laptrinh\Active_158\ActiveReports.XlsExport.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports3, Version=5.1.0.158, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\BenhVienNamDinh\Quan ly benh vien\ActiveReports3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="C1.C1Excel.2, Version=2.1.20071.60, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Common.DLL</HintPath>
+    </Reference>
+    <Reference Include="C1.Data, Version=1.0.20022.0, Culture=neutral, PublicKeyToken=900b028620cd3a1b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Data.Design, Version=1.0.20024.0, Culture=neutral, PublicKeyToken=bf19f4b831d5eff2">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Data.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Data.Express, Version=1.0.20022.0, Culture=neutral, PublicKeyToken=253763f1c3e4ceec">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Data.Express.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.5.20044.189, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9" />
+    <Reference Include="C1.Win.C1FlexGrid.Classic, Version=2.5.20044.189, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Win.C1FlexGrid.Classic.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input, Version=1.0.20044.77, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Win.C1Input.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List, Version=1.1.20044.56, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\QUANSO_QL\QUANSO_QL\bin\Debug\C1.Win.C1List.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Enc, Version=1.0.2690.41411, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\benhvien354\PROGRAM_2005\QuanTriHeThong\Enc.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\benhvien354\PROGRAM_2005\VIENPHI\BV354_VIENPHI\bin\Debug\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral" />
+    <Reference Include="Interop.Word, Version=8.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\CANLAMSANG\CANLAMSANG\bin\Debug\Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="WinWordControl, Version=1.0.2099.29690, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\benhvien354\PROGRAM_2005\CLS\bin\Debug\WinWordControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\BaoCao\frmCLS_DichVuDaThuPhi.Designer.vb">
+      <DependentUpon>frmCLS_DichVuDaThuPhi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmCLS_DichVuDaThuPhi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.designer.vb">
+      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.designer.vb">
+      <DependentUpon>frmKB_DanhSachBNKhamBenh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.Designer.vb">
+      <DependentUpon>frmCLS_ThongKeBenhNhanXN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmThuPhi_BaoCaoThu.designer.vb">
+      <DependentUpon>frmThuPhi_BaoCaoThu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmThuPhi_BaoCaoThu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmThuPhi_TongHopThu.Designer.vb">
+      <DependentUpon>frmThuPhi_TongHopThu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmThuPhi_TongHopThu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.designer.vb">
+      <DependentUpon>frmKB_ThongKeLuotKham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CongCu\frmDMDichVu.designer.vb">
+      <DependentUpon>frmDMDichVu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CongCu\frmDMDichVu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CongCu\frmDanhMucThuoc.Designer.vb">
+      <DependentUpon>frmDanhMucThuoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CongCu\frmDanhMucThuoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.Designer.vb">
+      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmBackup.Designer.vb">
+      <DependentUpon>frmBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmChange_Pass.Designer.vb">
+      <DependentUpon>frmChange_Pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmChange_Pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.designer.vb">
+      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\HeThong\frmWorkspace_KB.Designer.vb">
+      <DependentUpon>frmWorkspace_KB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmWorkspace_KB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.Designer.vb">
+      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachBN.designer.vb">
+      <DependentUpon>frmDanhsachBN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachBN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachPhieuHuy.Designer.vb">
+      <DependentUpon>frmDanhsachPhieuHuy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachPhieuHuy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachPhieuthu.designer.vb">
+      <DependentUpon>frmDanhsachPhieuthu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDanhsachPhieuthu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayDonThuoc.Designer.vb">
+      <DependentUpon>frmDS_SoTayDonThuoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayDonThuoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKeDon.Designer.vb">
+      <DependentUpon>frmKeDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKeDon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKetquaKham.designer.vb">
+      <DependentUpon>frmKetquaKham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKetquaKham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKhamBenh.designer.vb">
+      <DependentUpon>frmKhamBenh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmKhamBenh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmNhapChiDinh.Designer.vb">
+      <DependentUpon>frmNhapChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmNhapChiDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmPreview.Designer.vb">
+      <DependentUpon>frmPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmTiepDon.designer.vb">
+      <DependentUpon>frmTiepDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmTiepDon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmThuPhiDichVu.Designer.vb">
+      <DependentUpon>frmThuPhiDichVu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmThuPhiDichVu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Temp\frmTemp.Designer.vb">
+      <DependentUpon>frmTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Temp\frmTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul\mdlFunction.vb" />
+    <Compile Include="Modul\mdlHeThong.vb">
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_A5.Designer.vb">
+      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_A5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.Designer.vb">
+      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptKetQuaXN.Designer.vb">
+      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptKetQuaXN.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_InNhiet.Designer.vb">
+      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_InNhiet.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptDonthuocSua.Designer.vb">
+      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptDonthuocSua.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptBieu20_ThuocBHYT.Designer.vb">
+      <DependentUpon>rptBieu20_ThuocBHYT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptBieu20_ThuocBHYT.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptBieu21_DichvuBHYT.Designer.vb">
+      <DependentUpon>rptBieu21_DichvuBHYT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptBieu21_DichvuBHYT.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptBieuC79a_HD.Designer.vb">
+      <DependentUpon>rptBieuC79a_HD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptBieuC79a_HD.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptDSBNNopDV_Khoa.Designer.vb">
+      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptDSBNNopDV_Khoa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptDSBNNopDV.Designer.vb">
+      <DependentUpon>rptDSBNNopDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptDSBNNopDV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptBenhan_NgoaitruPHCN.Designer.vb">
+      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptBenhan_NgoaitruPHCN.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptMau01BV.Designer.vb">
+      <DependentUpon>rptMau01BV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptMau01BV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuChiDinh.Designer.vb">
+      <DependentUpon>rptPhieuChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuChiDinh.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuKB_Innhiet.Designer.vb">
+      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuKB_Innhiet.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuKB.Designer.vb">
+      <DependentUpon>rptPhieuKB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuKB.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu.Designer.vb">
+      <DependentUpon>rptPhieuthu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptSubChidinh_PHCN.Designer.vb">
+      <DependentUpon>rptSubChidinh_PHCN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptSubChidinh_PHCN.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptTongHopThuPhiDichVu_ChiTiet.Designer.vb">
+      <DependentUpon>rptTongHopThuPhiDichVu_ChiTiet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptTongHopThuPhiDichVu_ChiTiet.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\BaoCao\frmCLS_DichVuDaThuPhi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCLS_DichVuDaThuPhi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.resx">
+      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.resx">
+      <DependentUpon>frmKB_DanhSachBNKhamBenh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.resx">
+      <DependentUpon>frmCLS_ThongKeBenhNhanXN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_BaoCaoThu.resx">
+      <DependentUpon>frmThuPhi_BaoCaoThu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_TongHopThu.resx">
+      <DependentUpon>frmThuPhi_TongHopThu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmKB_ThongKeLuotKham.resx">
+      <DependentUpon>frmKB_ThongKeLuotKham.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CongCu\frmDMDichVu.resx">
+      <DependentUpon>frmDMDichVu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CongCu\frmDanhMucThuoc.resx">
+      <DependentUpon>frmDanhMucThuoc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmKhaiBaoHeThong.resx">
+      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmBackup.resx">
+      <DependentUpon>frmBackup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmChange_Pass.resx">
+      <DependentUpon>frmChange_Pass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmQuanTriNguoiDung.resx">
+      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmWorkspace_KB.resx">
+      <DependentUpon>frmWorkspace_KB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDS_SoTayChiDinh.resx">
+      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDanhsachBN.resx">
+      <DependentUpon>frmDanhsachBN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDanhsachPhieuHuy.resx">
+      <DependentUpon>frmDanhsachPhieuHuy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDanhsachPhieuthu.resx">
+      <DependentUpon>frmDanhsachPhieuthu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDS_SoTayDonThuoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDS_SoTayDonThuoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmKeDon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKeDon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmKetquaKham.resx">
+      <DependentUpon>frmKetquaKham.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmKhamBenh.resx">
+      <DependentUpon>frmKhamBenh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmNhapChiDinh.resx">
+      <DependentUpon>frmNhapChiDinh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmPreview.resx">
+      <DependentUpon>frmPreview.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmTiepDon.resx">
+      <DependentUpon>frmTiepDon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmThuPhiDichVu.resx">
+      <DependentUpon>frmThuPhiDichVu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Temp\frmTemp.resx">
+      <DependentUpon>frmTemp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuthu_A5.resx">
+      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuChiDinh_A4Ngoai.resx">
+      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptKetQuaXN.resx">
+      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuthu_InNhiet.resx">
+      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptDonthuocSua.resx">
+      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptBieu20_ThuocBHYT.resx">
+      <DependentUpon>rptBieu20_ThuocBHYT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptBieu21_DichvuBHYT.resx">
+      <DependentUpon>rptBieu21_DichvuBHYT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptBieuC79a_HD.resx">
+      <DependentUpon>rptBieuC79a_HD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptDSBNNopDV_Khoa.resx">
+      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptDSBNNopDV.resx">
+      <DependentUpon>rptDSBNNopDV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptBenhan_NgoaitruPHCN.resx">
+      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptMau01BV.resx">
+      <DependentUpon>rptMau01BV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuChiDinh.resx">
+      <DependentUpon>rptPhieuChiDinh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuKB_Innhiet.resx">
+      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuKB.resx">
+      <DependentUpon>rptPhieuKB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuthu.resx">
+      <DependentUpon>rptPhieuthu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptSubChidinh_PHCN.resx">
+      <DependentUpon>rptSubChidinh_PHCN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptTongHopThuPhiDichVu_ChiTiet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rptTongHopThuPhiDichVu_ChiTiet.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\BugPhanmem.xls" />
+    <None Include="bin\Debug\PhongKham.exe.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\PhongKham.exe" />
+    <Content Include="bin\Debug\PhongKham.pdb" />
+    <Content Include="logo.png" />
+    <Content Include="Main.ico" />
+    <None Include="Resources\Document 2 Remove.png" />
+    <None Include="Resources\card.png" />
+    <None Include="Resources\pill.png" />
+    <None Include="Resources\Document Blueprint.png" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\medical.jpg" />
+    <None Include="Resources\Undo_16x16.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\Allergy Vials Add.png" />
+    <None Include="Resources\Allergy Vials Dosage.png" />
+    <None Include="Resources\Print_16x16.png" />
+    <None Include="Resources\exit.jpg" />
+    <None Include="Resources\page-cross-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
