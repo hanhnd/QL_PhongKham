@@ -202,10 +202,10 @@
     <Compile Include="Form\BaoCao\frmCLS_DichVuDaThuPhi.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.designer.vb">
-      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
+    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.Designer.vb">
+      <DependentUpon>frmCLS_ThongKeBenhNhanXN.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.vb">
+    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.designer.vb">
@@ -214,10 +214,16 @@
     <Compile Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.Designer.vb">
-      <DependentUpon>frmCLS_ThongKeBenhNhanXN.vb</DependentUpon>
+    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.designer.vb">
+      <DependentUpon>frmKB_ThongKeLuotKham.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.vb">
+    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.designer.vb">
+      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\BaoCao\frmThuPhi_BaoCaoThu.designer.vb">
@@ -232,10 +238,10 @@
     <Compile Include="Form\BaoCao\frmThuPhi_TongHopThu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.designer.vb">
-      <DependentUpon>frmKB_ThongKeLuotKham.vb</DependentUpon>
+    <Compile Include="Form\CongCu\frmDanhMucThuoc.Designer.vb">
+      <DependentUpon>frmDanhMucThuoc.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\BaoCao\frmKB_ThongKeLuotKham.vb">
+    <Compile Include="Form\CongCu\frmDanhMucThuoc.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\CongCu\frmDMDichVu.designer.vb">
@@ -244,22 +250,10 @@
     <Compile Include="Form\CongCu\frmDMDichVu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\CongCu\frmDanhMucThuoc.Designer.vb">
-      <DependentUpon>frmDanhMucThuoc.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\CongCu\frmDanhMucThuoc.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form\CongCu\frmMauKQ_CDHA.designer.vb">
       <DependentUpon>frmMauKQ_CDHA.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\CongCu\frmMauKQ_CDHA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.Designer.vb">
-      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\HeThong\frmAbout.Designer.vb">
@@ -280,10 +274,10 @@
     <Compile Include="Form\HeThong\frmChange_Pass.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.designer.vb">
-      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
+    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.Designer.vb">
+      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.vb">
+    <Compile Include="Form\HeThong\frmKhaiBaoHeThong.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\HeThong\frmLogin.Designer.vb">
@@ -298,22 +292,22 @@
     <Compile Include="Form\HeThong\frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.designer.vb">
+      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HeThong\frmQuanTriNguoiDung.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\HeThong\frmWorkspace_KB.Designer.vb">
       <DependentUpon>frmWorkspace_KB.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\HeThong\frmWorkspace_KB.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\HeThong\frm_Dashboard.Designer.vb">
+    <Compile Include="Form\HeThong\frm_Dashboard.designer.vb">
       <DependentUpon>frm_Dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\HeThong\frm_Dashboard.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.Designer.vb">
-      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\TacNghiep\frmDanhsachBN.designer.vb">
@@ -332,6 +326,12 @@
       <DependentUpon>frmDanhsachPhieuthu.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\TacNghiep\frmDanhsachPhieuthu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.Designer.vb">
+      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TacNghiep\frmDS_SoTayChiDinh.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\TacNghiep\frmDS_SoTayDonThuoc.Designer.vb">
@@ -376,27 +376,20 @@
     <Compile Include="Form\TacNghiep\frmPreview.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\TacNghiep\frmTiepDon.designer.vb">
-      <DependentUpon>frmTiepDon.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\TacNghiep\frmTiepDon.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form\TacNghiep\frmThuPhiDichVu.Designer.vb">
       <DependentUpon>frmThuPhiDichVu.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\TacNghiep\frmThuPhiDichVu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\Temp\frmTemp.Designer.vb">
-      <DependentUpon>frmTemp.vb</DependentUpon>
+    <Compile Include="Form\TacNghiep\frmTiepDon.designer.vb">
+      <DependentUpon>frmTiepDon.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\Temp\frmTemp.vb">
+    <Compile Include="Form\TacNghiep\frmTiepDon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modul\mdlFunction.vb" />
-    <Compile Include="Modul\mdlHeThong.vb">
-    </Compile>
+    <Compile Include="Modul\mdlHeThong.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -412,34 +405,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Report\rptPhieuthu_A5.Designer.vb">
-      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
+    <Compile Include="Report\rptBenhan_NgoaitruPHCN.Designer.vb">
+      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
     </Compile>
-    <Compile Include="Report\rptPhieuthu_A5.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.Designer.vb">
-      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report\rptKetQuaXN.Designer.vb">
-      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Report\rptKetQuaXN.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report\rptPhieuthu_InNhiet.Designer.vb">
-      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Report\rptPhieuthu_InNhiet.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report\rptDonthuocSua.Designer.vb">
-      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Report\rptDonthuocSua.vb">
+    <Compile Include="Report\rptBenhan_NgoaitruPHCN.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\rptBieu20_ThuocBHYT.Designer.vb">
@@ -460,10 +429,10 @@
     <Compile Include="Report\rptBieuC79a_HD.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Report\rptDSBNNopDV_Khoa.Designer.vb">
-      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
+    <Compile Include="Report\rptDonthuocSua.Designer.vb">
+      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
     </Compile>
-    <Compile Include="Report\rptDSBNNopDV_Khoa.vb">
+    <Compile Include="Report\rptDonthuocSua.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\rptDSBNNopDV.Designer.vb">
@@ -472,10 +441,16 @@
     <Compile Include="Report\rptDSBNNopDV.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Report\rptBenhan_NgoaitruPHCN.Designer.vb">
-      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
+    <Compile Include="Report\rptDSBNNopDV_Khoa.Designer.vb">
+      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
     </Compile>
-    <Compile Include="Report\rptBenhan_NgoaitruPHCN.vb">
+    <Compile Include="Report\rptDSBNNopDV_Khoa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptKetQuaXN.Designer.vb">
+      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptKetQuaXN.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\rptMau01BV.Designer.vb">
@@ -490,10 +465,10 @@
     <Compile Include="Report\rptPhieuChiDinh.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Report\rptPhieuKB_Innhiet.Designer.vb">
-      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
+    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.Designer.vb">
+      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
     </Compile>
-    <Compile Include="Report\rptPhieuKB_Innhiet.vb">
+    <Compile Include="Report\rptPhieuChiDinh_A4Ngoai.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\rptPhieuKB.Designer.vb">
@@ -502,10 +477,28 @@
     <Compile Include="Report\rptPhieuKB.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Report\rptPhieuKB_Innhiet.Designer.vb">
+      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuKB_Innhiet.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\rptPhieuthu.Designer.vb">
       <DependentUpon>rptPhieuthu.vb</DependentUpon>
     </Compile>
     <Compile Include="Report\rptPhieuthu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_A5.Designer.vb">
+      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_A5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_InNhiet.Designer.vb">
+      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPhieuthu_InNhiet.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\rptSubChidinh_PHCN.Designer.vb">
@@ -524,133 +517,100 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form\BaoCao\frmCLS_DichVuDaThuPhi.resx">
-      <SubType>Designer</SubType>
       <DependentUpon>frmCLS_DichVuDaThuPhi.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.resx">
-      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.resx">
-      <DependentUpon>frmKB_DanhSachBNKhamBenh.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\BaoCao\frmCLS_ThongKeBenhNhanXN.resx">
       <DependentUpon>frmCLS_ThongKeBenhNhanXN.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_BaoCaoThu.resx">
-      <DependentUpon>frmThuPhi_BaoCaoThu.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_TongHopThu.resx">
-      <DependentUpon>frmThuPhi_TongHopThu.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Form\BaoCao\frmKB_DanhSachBNKhamBenh.resx">
+      <DependentUpon>frmKB_DanhSachBNKhamBenh.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\BaoCao\frmKB_ThongKeLuotKham.resx">
       <DependentUpon>frmKB_ThongKeLuotKham.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\CongCu\frmDMDichVu.resx">
-      <DependentUpon>frmDMDichVu.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Form\BaoCao\FrmKB_ThongKeThuocBacSiChiDinh.resx">
+      <DependentUpon>FrmKB_ThongKeThuocBacSiChiDinh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_BaoCaoThu.resx">
+      <DependentUpon>frmThuPhi_BaoCaoThu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaoCao\frmThuPhi_TongHopThu.resx">
+      <DependentUpon>frmThuPhi_TongHopThu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\CongCu\frmDanhMucThuoc.resx">
       <DependentUpon>frmDanhMucThuoc.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CongCu\frmDMDichVu.resx">
+      <DependentUpon>frmDMDichVu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\CongCu\frmMauKQ_CDHA.resx">
       <DependentUpon>frmMauKQ_CDHA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\HeThong\frmKhaiBaoHeThong.resx">
-      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmAbout.resx">
       <DependentUpon>frmAbout.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmBackup.resx">
       <DependentUpon>frmBackup.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmChange_Pass.resx">
       <DependentUpon>frmChange_Pass.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\HeThong\frmQuanTriNguoiDung.resx">
-      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Form\HeThong\frmKhaiBaoHeThong.resx">
+      <DependentUpon>frmKhaiBaoHeThong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HeThong\frmQuanTriNguoiDung.resx">
+      <DependentUpon>frmQuanTriNguoiDung.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frmWorkspace_KB.resx">
       <DependentUpon>frmWorkspace_KB.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\HeThong\frm_Dashboard.resx">
       <DependentUpon>frm_Dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\TacNghiep\frmDS_SoTayChiDinh.resx">
-      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmDanhsachBN.resx">
       <DependentUpon>frmDanhsachBN.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmDanhsachPhieuHuy.resx">
       <DependentUpon>frmDanhsachPhieuHuy.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmDanhsachPhieuthu.resx">
       <DependentUpon>frmDanhsachPhieuthu.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TacNghiep\frmDS_SoTayChiDinh.resx">
+      <DependentUpon>frmDS_SoTayChiDinh.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmDS_SoTayDonThuoc.resx">
-      <SubType>Designer</SubType>
       <DependentUpon>frmDS_SoTayDonThuoc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmKeDon.resx">
-      <SubType>Designer</SubType>
       <DependentUpon>frmKeDon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmKetquaKham.resx">
       <DependentUpon>frmKetquaKham.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmKhamBenh.resx">
       <DependentUpon>frmKhamBenh.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmKQ_ChanDoanHA.resx">
       <DependentUpon>frmKQ_ChanDoanHA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmNhapChiDinh.resx">
       <DependentUpon>frmNhapChiDinh.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmPreview.resx">
       <DependentUpon>frmPreview.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\TacNghiep\frmTiepDon.resx">
-      <DependentUpon>frmTiepDon.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TacNghiep\frmThuPhiDichVu.resx">
       <DependentUpon>frmThuPhiDichVu.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\Temp\frmTemp.resx">
-      <DependentUpon>frmTemp.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Form\TacNghiep\frmTiepDon.resx">
+      <DependentUpon>frmTiepDon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -659,76 +619,58 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptPhieuthu_A5.resx">
-      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptPhieuChiDinh_A4Ngoai.resx">
-      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptKetQuaXN.resx">
-      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptPhieuthu_InNhiet.resx">
-      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptDonthuocSua.resx">
-      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Report\rptBenhan_NgoaitruPHCN.resx">
+      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptBieu20_ThuocBHYT.resx">
       <DependentUpon>rptBieu20_ThuocBHYT.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptBieu21_DichvuBHYT.resx">
       <DependentUpon>rptBieu21_DichvuBHYT.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptBieuC79a_HD.resx">
       <DependentUpon>rptBieuC79a_HD.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptDSBNNopDV_Khoa.resx">
-      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Report\rptDonthuocSua.resx">
+      <DependentUpon>rptDonthuocSua.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptDSBNNopDV.resx">
       <DependentUpon>rptDSBNNopDV.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptBenhan_NgoaitruPHCN.resx">
-      <DependentUpon>rptBenhan_NgoaitruPHCN.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Report\rptDSBNNopDV_Khoa.resx">
+      <DependentUpon>rptDSBNNopDV_Khoa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptKetQuaXN.resx">
+      <DependentUpon>rptKetQuaXN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptMau01BV.resx">
       <DependentUpon>rptMau01BV.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptPhieuChiDinh.resx">
       <DependentUpon>rptPhieuChiDinh.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\rptPhieuKB_Innhiet.resx">
-      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="Report\rptPhieuChiDinh_A4Ngoai.resx">
+      <DependentUpon>rptPhieuChiDinh_A4Ngoai.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptPhieuKB.resx">
       <DependentUpon>rptPhieuKB.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuKB_Innhiet.resx">
+      <DependentUpon>rptPhieuKB_Innhiet.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptPhieuthu.resx">
       <DependentUpon>rptPhieuthu.vb</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuthu_A5.resx">
+      <DependentUpon>rptPhieuthu_A5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPhieuthu_InNhiet.resx">
+      <DependentUpon>rptPhieuthu_InNhiet.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptSubChidinh_PHCN.resx">
       <DependentUpon>rptSubChidinh_PHCN.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptTongHopThuPhiDichVu_ChiTiet.resx">
-      <SubType>Designer</SubType>
       <DependentUpon>rptTongHopThuPhiDichVu_ChiTiet.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -815,6 +757,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form\Temp\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
