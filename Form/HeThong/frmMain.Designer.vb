@@ -287,6 +287,7 @@ Partial Class frmMain
         Me.nvb_KetQua_CDHA.Caption = "Kết quả CĐHA"
         Me.nvb_KetQua_CDHA.LargeImage = Global.PhongKham.My.Resources.Resources.Desktop
         Me.nvb_KetQua_CDHA.Name = "nvb_KetQua_CDHA"
+        Me.nvb_KetQua_CDHA.Visible = False
         '
         'gbaHeThong
         '
