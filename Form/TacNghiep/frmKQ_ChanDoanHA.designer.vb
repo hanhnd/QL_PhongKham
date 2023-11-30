@@ -2404,7 +2404,7 @@ Partial Class frmKQ_ChanDoanHA
         Me.panDS_mauKQ.Controls.Add(Me.cmdClose_panDS_mauKQ)
         Me.panDS_mauKQ.Controls.Add(Me.Label20)
         Me.panDS_mauKQ.Controls.Add(Me.grdDS_mauKQ)
-        Me.panDS_mauKQ.Location = New System.Drawing.Point(1023, 30)
+        Me.panDS_mauKQ.Location = New System.Drawing.Point(1000, 30)
         Me.panDS_mauKQ.Name = "panDS_mauKQ"
         Me.panDS_mauKQ.Size = New System.Drawing.Size(280, 579)
         Me.panDS_mauKQ.TabIndex = 216

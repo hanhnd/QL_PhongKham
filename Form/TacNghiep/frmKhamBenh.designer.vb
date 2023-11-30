@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmKhamBenh
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         If disposing AndAlso components IsNot Nothing Then
             components.Dispose()
@@ -17,66 +17,66 @@ Partial Class frmKhamBenh
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmKhamBenh))
-        Dim Style1 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style2 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style3 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style4 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style5 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style6 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style7 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style8 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style9 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style10 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style11 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style12 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style13 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style14 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style15 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style16 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style17 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style18 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style19 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style20 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style21 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style22 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style23 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style24 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style25 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style26 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style27 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style28 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style29 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style30 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style31 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style32 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style33 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style34 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style35 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style36 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style37 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style38 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style39 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style40 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style41 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style42 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style43 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style44 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style45 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style46 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style47 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style48 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style49 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style50 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style51 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style52 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style53 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style54 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style55 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
-        Dim Style56 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style57 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style58 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style59 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style60 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style61 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style62 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style63 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style64 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style65 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style66 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style67 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style68 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style69 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style70 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style71 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style72 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style73 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style74 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style75 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style76 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style77 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style78 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style79 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style80 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style81 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style82 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style83 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style84 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style85 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style86 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style87 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style88 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style89 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style90 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style91 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style92 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style93 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style94 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style95 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style96 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style97 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style98 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style99 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style100 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style101 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style102 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style103 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style104 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style105 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style106 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style107 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style108 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style109 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style110 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style111 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
+        Dim Style112 As C1.Win.C1List.Style = New C1.Win.C1List.Style()
         Me.panICD = New System.Windows.Forms.Panel()
         Me.Label79 = New System.Windows.Forms.Label()
         Me.txtTenICD = New System.Windows.Forms.TextBox()
@@ -266,6 +266,8 @@ Partial Class frmKhamBenh
         Me.btnPhieuThu = New System.Windows.Forms.Button()
         Me.btn_ThuPhi = New System.Windows.Forms.Button()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
@@ -303,6 +305,7 @@ Partial Class frmKhamBenh
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Uct_KetQua_CDHA1 = New PhongKham.uct_KetQua_CDHA()
         Me.panICD.SuspendLayout()
         CType(Me.grdICD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbGioitinh, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -337,6 +340,7 @@ Partial Class frmKhamBenh
         CType(Me.nmDatCoc, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbDM_BacSy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl2.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.C1DateEdit2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -475,7 +479,7 @@ Partial Class frmKhamBenh
         Me.cmbGioitinh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbGioitinh.Caption = ""
         Me.cmbGioitinh.CaptionHeight = 17
-        Me.cmbGioitinh.CaptionStyle = Style1
+        Me.cmbGioitinh.CaptionStyle = Style57
         Me.cmbGioitinh.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbGioitinh.ColumnCaptionHeight = 17
         Me.cmbGioitinh.ColumnFooterHeight = 17
@@ -487,13 +491,13 @@ Partial Class frmKhamBenh
         Me.cmbGioitinh.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbGioitinh.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbGioitinh.EditorHeight = 15
-        Me.cmbGioitinh.EvenRowStyle = Style2
+        Me.cmbGioitinh.EvenRowStyle = Style58
         Me.cmbGioitinh.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
         Me.cmbGioitinh.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbGioitinh.FooterStyle = Style3
+        Me.cmbGioitinh.FooterStyle = Style59
         Me.cmbGioitinh.GapHeight = 2
-        Me.cmbGioitinh.HeadingStyle = Style4
-        Me.cmbGioitinh.HighLightRowStyle = Style5
+        Me.cmbGioitinh.HeadingStyle = Style60
+        Me.cmbGioitinh.HighLightRowStyle = Style61
         Me.cmbGioitinh.ItemHeight = 15
         Me.cmbGioitinh.Location = New System.Drawing.Point(888, 15)
         Me.cmbGioitinh.MatchEntryTimeout = CType(2000, Long)
@@ -501,14 +505,14 @@ Partial Class frmKhamBenh
         Me.cmbGioitinh.MaxLength = 32767
         Me.cmbGioitinh.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbGioitinh.Name = "cmbGioitinh"
-        Me.cmbGioitinh.OddRowStyle = Style6
+        Me.cmbGioitinh.OddRowStyle = Style62
         Me.cmbGioitinh.PartialRightColumn = False
         Me.cmbGioitinh.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbGioitinh.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbGioitinh.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbGioitinh.SelectedStyle = Style7
+        Me.cmbGioitinh.SelectedStyle = Style63
         Me.cmbGioitinh.Size = New System.Drawing.Size(65, 19)
-        Me.cmbGioitinh.Style = Style8
+        Me.cmbGioitinh.Style = Style64
         Me.cmbGioitinh.TabIndex = 3
         Me.cmbGioitinh.PropBag = resources.GetString("cmbGioitinh.PropBag")
         '
@@ -578,7 +582,7 @@ Partial Class frmKhamBenh
         Me.cmbNghenghiep.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbNghenghiep.Caption = ""
         Me.cmbNghenghiep.CaptionHeight = 17
-        Me.cmbNghenghiep.CaptionStyle = Style9
+        Me.cmbNghenghiep.CaptionStyle = Style65
         Me.cmbNghenghiep.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbNghenghiep.ColumnCaptionHeight = 17
         Me.cmbNghenghiep.ColumnFooterHeight = 17
@@ -590,13 +594,13 @@ Partial Class frmKhamBenh
         Me.cmbNghenghiep.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNghenghiep.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbNghenghiep.EditorHeight = 15
-        Me.cmbNghenghiep.EvenRowStyle = Style10
+        Me.cmbNghenghiep.EvenRowStyle = Style66
         Me.cmbNghenghiep.ExtendRightColumn = True
         Me.cmbNghenghiep.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
-        Me.cmbNghenghiep.FooterStyle = Style11
+        Me.cmbNghenghiep.FooterStyle = Style67
         Me.cmbNghenghiep.GapHeight = 2
-        Me.cmbNghenghiep.HeadingStyle = Style12
-        Me.cmbNghenghiep.HighLightRowStyle = Style13
+        Me.cmbNghenghiep.HeadingStyle = Style68
+        Me.cmbNghenghiep.HighLightRowStyle = Style69
         Me.cmbNghenghiep.ItemHeight = 15
         Me.cmbNghenghiep.Location = New System.Drawing.Point(612, 110)
         Me.cmbNghenghiep.MatchEntryTimeout = CType(2000, Long)
@@ -604,14 +608,14 @@ Partial Class frmKhamBenh
         Me.cmbNghenghiep.MaxLength = 32767
         Me.cmbNghenghiep.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbNghenghiep.Name = "cmbNghenghiep"
-        Me.cmbNghenghiep.OddRowStyle = Style14
+        Me.cmbNghenghiep.OddRowStyle = Style70
         Me.cmbNghenghiep.PartialRightColumn = False
         Me.cmbNghenghiep.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbNghenghiep.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbNghenghiep.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbNghenghiep.SelectedStyle = Style15
+        Me.cmbNghenghiep.SelectedStyle = Style71
         Me.cmbNghenghiep.Size = New System.Drawing.Size(152, 19)
-        Me.cmbNghenghiep.Style = Style16
+        Me.cmbNghenghiep.Style = Style72
         Me.cmbNghenghiep.TabIndex = 58
         Me.cmbNghenghiep.TabStop = False
         Me.cmbNghenghiep.PropBag = resources.GetString("cmbNghenghiep.PropBag")
@@ -633,7 +637,7 @@ Partial Class frmKhamBenh
         Me.cmbCapbac.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbCapbac.Caption = ""
         Me.cmbCapbac.CaptionHeight = 17
-        Me.cmbCapbac.CaptionStyle = Style17
+        Me.cmbCapbac.CaptionStyle = Style73
         Me.cmbCapbac.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbCapbac.ColumnCaptionHeight = 17
         Me.cmbCapbac.ColumnFooterHeight = 17
@@ -645,13 +649,13 @@ Partial Class frmKhamBenh
         Me.cmbCapbac.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCapbac.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbCapbac.EditorHeight = 15
-        Me.cmbCapbac.EvenRowStyle = Style18
+        Me.cmbCapbac.EvenRowStyle = Style74
         Me.cmbCapbac.ExtendRightColumn = True
         Me.cmbCapbac.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
-        Me.cmbCapbac.FooterStyle = Style19
+        Me.cmbCapbac.FooterStyle = Style75
         Me.cmbCapbac.GapHeight = 2
-        Me.cmbCapbac.HeadingStyle = Style20
-        Me.cmbCapbac.HighLightRowStyle = Style21
+        Me.cmbCapbac.HeadingStyle = Style76
+        Me.cmbCapbac.HighLightRowStyle = Style77
         Me.cmbCapbac.ItemHeight = 15
         Me.cmbCapbac.Location = New System.Drawing.Point(68, 110)
         Me.cmbCapbac.MatchEntryTimeout = CType(2000, Long)
@@ -659,14 +663,14 @@ Partial Class frmKhamBenh
         Me.cmbCapbac.MaxLength = 32767
         Me.cmbCapbac.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbCapbac.Name = "cmbCapbac"
-        Me.cmbCapbac.OddRowStyle = Style22
+        Me.cmbCapbac.OddRowStyle = Style78
         Me.cmbCapbac.PartialRightColumn = False
         Me.cmbCapbac.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbCapbac.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbCapbac.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbCapbac.SelectedStyle = Style23
+        Me.cmbCapbac.SelectedStyle = Style79
         Me.cmbCapbac.Size = New System.Drawing.Size(192, 19)
-        Me.cmbCapbac.Style = Style24
+        Me.cmbCapbac.Style = Style80
         Me.cmbCapbac.TabIndex = 160
         Me.cmbCapbac.TabStop = False
         Me.cmbCapbac.PropBag = resources.GetString("cmbCapbac.PropBag")
@@ -1628,7 +1632,7 @@ Partial Class frmKhamBenh
         Me.cmbChuyenPK_Phong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbChuyenPK_Phong.Caption = ""
         Me.cmbChuyenPK_Phong.CaptionHeight = 17
-        Me.cmbChuyenPK_Phong.CaptionStyle = Style25
+        Me.cmbChuyenPK_Phong.CaptionStyle = Style81
         Me.cmbChuyenPK_Phong.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbChuyenPK_Phong.ColumnCaptionHeight = 17
         Me.cmbChuyenPK_Phong.ColumnFooterHeight = 17
@@ -1641,13 +1645,13 @@ Partial Class frmKhamBenh
         Me.cmbChuyenPK_Phong.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbChuyenPK_Phong.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbChuyenPK_Phong.EditorHeight = 15
-        Me.cmbChuyenPK_Phong.EvenRowStyle = Style26
+        Me.cmbChuyenPK_Phong.EvenRowStyle = Style82
         Me.cmbChuyenPK_Phong.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
         Me.cmbChuyenPK_Phong.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbChuyenPK_Phong.FooterStyle = Style27
+        Me.cmbChuyenPK_Phong.FooterStyle = Style83
         Me.cmbChuyenPK_Phong.GapHeight = 2
-        Me.cmbChuyenPK_Phong.HeadingStyle = Style28
-        Me.cmbChuyenPK_Phong.HighLightRowStyle = Style29
+        Me.cmbChuyenPK_Phong.HeadingStyle = Style84
+        Me.cmbChuyenPK_Phong.HighLightRowStyle = Style85
         Me.cmbChuyenPK_Phong.ItemHeight = 15
         Me.cmbChuyenPK_Phong.Location = New System.Drawing.Point(144, 56)
         Me.cmbChuyenPK_Phong.MatchEntryTimeout = CType(2000, Long)
@@ -1655,14 +1659,14 @@ Partial Class frmKhamBenh
         Me.cmbChuyenPK_Phong.MaxLength = 32767
         Me.cmbChuyenPK_Phong.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbChuyenPK_Phong.Name = "cmbChuyenPK_Phong"
-        Me.cmbChuyenPK_Phong.OddRowStyle = Style30
+        Me.cmbChuyenPK_Phong.OddRowStyle = Style86
         Me.cmbChuyenPK_Phong.PartialRightColumn = False
         Me.cmbChuyenPK_Phong.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbChuyenPK_Phong.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbChuyenPK_Phong.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbChuyenPK_Phong.SelectedStyle = Style31
+        Me.cmbChuyenPK_Phong.SelectedStyle = Style87
         Me.cmbChuyenPK_Phong.Size = New System.Drawing.Size(304, 19)
-        Me.cmbChuyenPK_Phong.Style = Style32
+        Me.cmbChuyenPK_Phong.Style = Style88
         Me.cmbChuyenPK_Phong.TabIndex = 178
         Me.cmbChuyenPK_Phong.Text = "Hen Phế Quản (222)"
         Me.cmbChuyenPK_Phong.PropBag = resources.GetString("cmbChuyenPK_Phong.PropBag")
@@ -2283,7 +2287,7 @@ Partial Class frmKhamBenh
         Me.cmbSoTayChiDinh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbSoTayChiDinh.Caption = ""
         Me.cmbSoTayChiDinh.CaptionHeight = 17
-        Me.cmbSoTayChiDinh.CaptionStyle = Style33
+        Me.cmbSoTayChiDinh.CaptionStyle = Style89
         Me.cmbSoTayChiDinh.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbSoTayChiDinh.ColumnCaptionHeight = 17
         Me.cmbSoTayChiDinh.ColumnFooterHeight = 17
@@ -2295,14 +2299,14 @@ Partial Class frmKhamBenh
         Me.cmbSoTayChiDinh.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbSoTayChiDinh.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbSoTayChiDinh.EditorHeight = 17
-        Me.cmbSoTayChiDinh.EvenRowStyle = Style34
+        Me.cmbSoTayChiDinh.EvenRowStyle = Style90
         Me.cmbSoTayChiDinh.ExtendRightColumn = True
         Me.cmbSoTayChiDinh.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
         Me.cmbSoTayChiDinh.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbSoTayChiDinh.FooterStyle = Style35
+        Me.cmbSoTayChiDinh.FooterStyle = Style91
         Me.cmbSoTayChiDinh.GapHeight = 2
-        Me.cmbSoTayChiDinh.HeadingStyle = Style36
-        Me.cmbSoTayChiDinh.HighLightRowStyle = Style37
+        Me.cmbSoTayChiDinh.HeadingStyle = Style92
+        Me.cmbSoTayChiDinh.HighLightRowStyle = Style93
         Me.cmbSoTayChiDinh.ItemHeight = 15
         Me.cmbSoTayChiDinh.Location = New System.Drawing.Point(237, 70)
         Me.cmbSoTayChiDinh.MatchEntryTimeout = CType(2000, Long)
@@ -2310,14 +2314,14 @@ Partial Class frmKhamBenh
         Me.cmbSoTayChiDinh.MaxLength = 32767
         Me.cmbSoTayChiDinh.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbSoTayChiDinh.Name = "cmbSoTayChiDinh"
-        Me.cmbSoTayChiDinh.OddRowStyle = Style38
+        Me.cmbSoTayChiDinh.OddRowStyle = Style94
         Me.cmbSoTayChiDinh.PartialRightColumn = False
         Me.cmbSoTayChiDinh.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbSoTayChiDinh.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbSoTayChiDinh.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbSoTayChiDinh.SelectedStyle = Style39
+        Me.cmbSoTayChiDinh.SelectedStyle = Style95
         Me.cmbSoTayChiDinh.Size = New System.Drawing.Size(180, 21)
-        Me.cmbSoTayChiDinh.Style = Style40
+        Me.cmbSoTayChiDinh.Style = Style96
         Me.cmbSoTayChiDinh.TabIndex = 0
         Me.cmbSoTayChiDinh.TabStop = False
         Me.cmbSoTayChiDinh.PropBag = resources.GetString("cmbSoTayChiDinh.PropBag")
@@ -2330,7 +2334,7 @@ Partial Class frmKhamBenh
         Me.cmbMatbenh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbMatbenh.Caption = ""
         Me.cmbMatbenh.CaptionHeight = 17
-        Me.cmbMatbenh.CaptionStyle = Style41
+        Me.cmbMatbenh.CaptionStyle = Style97
         Me.cmbMatbenh.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbMatbenh.ColumnCaptionHeight = 17
         Me.cmbMatbenh.ColumnFooterHeight = 17
@@ -2342,14 +2346,14 @@ Partial Class frmKhamBenh
         Me.cmbMatbenh.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbMatbenh.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbMatbenh.EditorHeight = 15
-        Me.cmbMatbenh.EvenRowStyle = Style42
+        Me.cmbMatbenh.EvenRowStyle = Style98
         Me.cmbMatbenh.ExtendRightColumn = True
         Me.cmbMatbenh.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
         Me.cmbMatbenh.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbMatbenh.FooterStyle = Style43
+        Me.cmbMatbenh.FooterStyle = Style99
         Me.cmbMatbenh.GapHeight = 2
-        Me.cmbMatbenh.HeadingStyle = Style44
-        Me.cmbMatbenh.HighLightRowStyle = Style45
+        Me.cmbMatbenh.HeadingStyle = Style100
+        Me.cmbMatbenh.HighLightRowStyle = Style101
         Me.cmbMatbenh.ItemHeight = 15
         Me.cmbMatbenh.Location = New System.Drawing.Point(215, 283)
         Me.cmbMatbenh.MatchEntryTimeout = CType(2000, Long)
@@ -2357,14 +2361,14 @@ Partial Class frmKhamBenh
         Me.cmbMatbenh.MaxLength = 32767
         Me.cmbMatbenh.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbMatbenh.Name = "cmbMatbenh"
-        Me.cmbMatbenh.OddRowStyle = Style46
+        Me.cmbMatbenh.OddRowStyle = Style102
         Me.cmbMatbenh.PartialRightColumn = False
         Me.cmbMatbenh.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbMatbenh.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbMatbenh.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbMatbenh.SelectedStyle = Style47
+        Me.cmbMatbenh.SelectedStyle = Style103
         Me.cmbMatbenh.Size = New System.Drawing.Size(178, 19)
-        Me.cmbMatbenh.Style = Style48
+        Me.cmbMatbenh.Style = Style104
         Me.cmbMatbenh.TabIndex = 0
         Me.cmbMatbenh.TabStop = False
         Me.cmbMatbenh.PropBag = resources.GetString("cmbMatbenh.PropBag")
@@ -2644,7 +2648,7 @@ Partial Class frmKhamBenh
         Me.cmbDM_BacSy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbDM_BacSy.Caption = ""
         Me.cmbDM_BacSy.CaptionHeight = 17
-        Me.cmbDM_BacSy.CaptionStyle = Style49
+        Me.cmbDM_BacSy.CaptionStyle = Style105
         Me.cmbDM_BacSy.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbDM_BacSy.ColumnCaptionHeight = 17
         Me.cmbDM_BacSy.ColumnFooterHeight = 17
@@ -2656,13 +2660,13 @@ Partial Class frmKhamBenh
         Me.cmbDM_BacSy.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbDM_BacSy.EditorForeColor = System.Drawing.SystemColors.WindowText
         Me.cmbDM_BacSy.EditorHeight = 15
-        Me.cmbDM_BacSy.EvenRowStyle = Style50
+        Me.cmbDM_BacSy.EvenRowStyle = Style106
         Me.cmbDM_BacSy.ExtendRightColumn = True
         Me.cmbDM_BacSy.FlatStyle = C1.Win.C1List.FlatModeEnum.Popup
-        Me.cmbDM_BacSy.FooterStyle = Style51
+        Me.cmbDM_BacSy.FooterStyle = Style107
         Me.cmbDM_BacSy.GapHeight = 2
-        Me.cmbDM_BacSy.HeadingStyle = Style52
-        Me.cmbDM_BacSy.HighLightRowStyle = Style53
+        Me.cmbDM_BacSy.HeadingStyle = Style108
+        Me.cmbDM_BacSy.HighLightRowStyle = Style109
         Me.cmbDM_BacSy.ItemHeight = 15
         Me.cmbDM_BacSy.Location = New System.Drawing.Point(1140, 255)
         Me.cmbDM_BacSy.MatchEntryTimeout = CType(2000, Long)
@@ -2670,14 +2674,14 @@ Partial Class frmKhamBenh
         Me.cmbDM_BacSy.MaxLength = 32767
         Me.cmbDM_BacSy.MouseCursor = System.Windows.Forms.Cursors.Default
         Me.cmbDM_BacSy.Name = "cmbDM_BacSy"
-        Me.cmbDM_BacSy.OddRowStyle = Style54
+        Me.cmbDM_BacSy.OddRowStyle = Style110
         Me.cmbDM_BacSy.PartialRightColumn = False
         Me.cmbDM_BacSy.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbDM_BacSy.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbDM_BacSy.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbDM_BacSy.SelectedStyle = Style55
+        Me.cmbDM_BacSy.SelectedStyle = Style111
         Me.cmbDM_BacSy.Size = New System.Drawing.Size(188, 19)
-        Me.cmbDM_BacSy.Style = Style56
+        Me.cmbDM_BacSy.Style = Style112
         Me.cmbDM_BacSy.TabIndex = 0
         Me.cmbDM_BacSy.TabStop = False
         Me.cmbDM_BacSy.Visible = False
@@ -2719,6 +2723,8 @@ Partial Class frmKhamBenh
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TabControl2.Controls.Add(Me.tabKhambenh)
+        Me.TabControl2.Controls.Add(Me.TabPage1)
+        Me.TabControl2.Controls.Add(Me.TabPage2)
         Me.TabControl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl2.Location = New System.Drawing.Point(7, 84)
         Me.TabControl2.Name = "TabControl2"
@@ -2726,6 +2732,26 @@ Partial Class frmKhamBenh
         Me.TabControl2.Size = New System.Drawing.Size(1332, 568)
         Me.TabControl2.TabIndex = 0
         Me.TabControl2.TabStop = False
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Location = New System.Drawing.Point(4, 24)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(1324, 540)
+        Me.TabPage1.TabIndex = 1
+        Me.TabPage1.Text = "Kết quả xét nghiệm"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.Uct_KetQua_CDHA1)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 24)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Size = New System.Drawing.Size(1324, 540)
+        Me.TabPage2.TabIndex = 2
+        Me.TabPage2.Text = "Kết quả Chẩn đoán hình ảnh"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'Panel1
         '
@@ -3171,6 +3197,15 @@ Partial Class frmKhamBenh
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'Uct_KetQua_CDHA1
+        '
+        Me.Uct_KetQua_CDHA1.BackColor = System.Drawing.Color.White
+        Me.Uct_KetQua_CDHA1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Uct_KetQua_CDHA1.Location = New System.Drawing.Point(0, 0)
+        Me.Uct_KetQua_CDHA1.Name = "Uct_KetQua_CDHA1"
+        Me.Uct_KetQua_CDHA1.Size = New System.Drawing.Size(1324, 540)
+        Me.Uct_KetQua_CDHA1.TabIndex = 0
+        '
         'frmKhamBenh
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3240,6 +3275,7 @@ Partial Class frmKhamBenh
         CType(Me.nmDatCoc, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbDM_BacSy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl2.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.C1DateEdit2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3472,4 +3508,7 @@ Partial Class frmKhamBenh
     Friend WithEvents GridColumn14 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn15 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents Button4 As Button
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Uct_KetQua_CDHA1 As uct_KetQua_CDHA
 End Class

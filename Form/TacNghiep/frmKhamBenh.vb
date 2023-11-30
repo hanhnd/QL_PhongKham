@@ -1785,6 +1785,14 @@ Public Class frmKhamBenh
         mdlFunction.Save_Text_FlexGrid(Me, grdTiensuKB, "vi", Cn)
     End Sub
 
+    Private Sub TabControl2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles TabControl2.SelectedIndexChanged
+        If TabControl2.SelectedIndex = 2 Then
+            Uct_KetQua_CDHA1.sMaKhamBenh = txtMakhambenh.Text.Trim
+            Uct_KetQua_CDHA1.sTenBenhNhan = txtTenbenhnhan.Text.Trim
+            Uct_KetQua_CDHA1.uct_Load()
+        End If
+    End Sub
+
     Private Sub grdTiensuKB_KeyDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles grdTiensuKB.KeyDown
         If e.KeyCode = Keys.Delete Then
             If MessageBox.Show("You definitely want to delete the selected examination information?", "Messages", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
